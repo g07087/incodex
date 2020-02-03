@@ -1,9 +1,8 @@
-# incodex
+# incodex vier reboot script
 
 About
 
-This script uses selenium for Python to reboot a LEIGHTRONIX IncodeX Vier H.264 HD/SD Encoder .
+Python script for rebooting LEIGHTRONIX IncodeX Vier H.264 HD/SD Encoder via web interface. 
+Unfortunatley there is no ssh access to the device and I needed it rebooted on a schedule for optimal performance .
 
-We had a use case where we preferred it being restarted on a schedule , so we created a batch file that launches this script. 
-
-
+It uses selenium's firefox webdriver , as I had issues with chrome and the encoder. 
